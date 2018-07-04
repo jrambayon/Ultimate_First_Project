@@ -1,0 +1,48 @@
+[debug] [2018-07-04T05:20:10.788Z] ----------------------------------------------------------------------
+[debug] [2018-07-04T05:20:10.793Z] Command:       C:\Program Files\nodejs\node.exe D:\Users\dev5\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-04T05:20:10.793Z] CLI Version:   3.19.2
+[debug] [2018-07-04T05:20:10.793Z] Platform:      win32
+[debug] [2018-07-04T05:20:10.793Z] Node Version:  v8.11.3
+[debug] [2018-07-04T05:20:10.795Z] Time:          Wed Jul 04 2018 13:20:10 GMT+0800 (China Standard Time)
+[debug] [2018-07-04T05:20:10.795Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-04T05:20:10.815Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-04T05:20:10.815Z] > authorizing via signed-in user
+[debug] [2018-07-04T05:20:10.818Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ultimate-first-project  
+  
+ Wed Jul 04 2018 13:20:10 GMT+0800 (China Standard Time)
+[debug] [2018-07-04T05:20:11.975Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T05:20:11.976Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ultimate-first-project/tokens  
+  
+ Wed Jul 04 2018 13:20:11 GMT+0800 (China Standard Time)
+[debug] [2018-07-04T05:20:12.836Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T05:20:12.837Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ultimate-first-project  
+  
+ Wed Jul 04 2018 13:20:12 GMT+0800 (China Standard Time)
+[debug] [2018-07-04T05:20:14.115Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Users\dev5\Documents\Jason Rambayon\Firebase\Ultimate_First_Project'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-04T05:20:16.130Z] Fetching environment
+[debug] [2018-07-04T05:20:16.145Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/333155704714:getServerAppConfig  
+  
+ Wed Jul 04 2018 13:20:16 GMT+0800 (China Standard Time)
+[debug] [2018-07-04T05:20:16.146Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/333155704714/clients/_:getWebAppConfig  
+  
+ Wed Jul 04 2018 13:20:16 GMT+0800 (China Standard Time)
+[debug] [2018-07-04T05:20:16.689Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T05:20:16.689Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-04T05:20:16.725Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: Y
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-04T05:20:20.326Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-07-04T05:20:20.711Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'firebase-functions'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'firebase-functions'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-07-04T05:20:20.714Z] 
